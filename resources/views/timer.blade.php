@@ -60,6 +60,8 @@
             return; //
         }
 
+        clearInterval(countdown) //supaya ga tabrakan sama countdown yg sedang jalan saat mau input detik lagi
+            
         let sisaWaktu = inputDetik; //memasukkan nilai input ke dalam variabel
 
         updateDisplay(sisaWaktu); //memeanggil fungsi updateDisplay
